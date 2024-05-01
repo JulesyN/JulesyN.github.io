@@ -29,23 +29,22 @@
 			</div>
 			<div class="sub-head">
 				<div class="sub-first"><i class="fas fa-code fa-2x"></i> Welcome to PC-Part Picker!</div>
-				<div><h2><a href="part_picker.html">Start Picking</a></h2>
+				<div>
 			</div>
 		</header>
 		<section>
+            <div>
+                <p id="price">$0.00</p>
+            </div>
 			<div class="main">
-				<div class="main-block">
-				  <div class="blockBorder">
-					<h3><a href="instructions.html">Guide</a></h3>
-					<h4></h4>
-					<p>Broad instructions on how to assemble a computer with custom parts. Go here if you have no idea where how to start!</p>
-				  </div>
-				  <div class="blockBorder">
-					<h3><a href="recommendation.html">Recommendations</a></h3>
-					<h4></h4>
-					<p>Computers can have specific purposes. What kind of computer are you looking to build?</p>
-				  </div>
-				</div>
+                <form>
+                    <label>Choose a Case:</label>
+                    <select id="cases" name ="cases" size="3" multiple>
+                        <option value="Fractal">Fractal Design Core</option>
+                        <option value="MasterBox">Cooler Master MasterBox Q300L Micro-ATX Tower</option>
+                        <option value="Glass">Sama 3509 Tempered Glass Open Door Case</option>
+                    </select>
+                </form>
 			</div>
 		</section>
 		<footer>
