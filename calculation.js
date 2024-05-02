@@ -8,5 +8,5 @@ function addMoney(identity) {
         total = total - parseFloat(document.getElementById(identity).value);
     }
     total = Math.round(total * 100) / 100;
-    document.getElementById("price").innerHTML = "Total Price: $" + total;
+    document.getElementById("price").textContent = "Total Price: $" + total;
 }
