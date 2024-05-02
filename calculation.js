@@ -1,11 +1,12 @@
-var total = 0.00;
+let total = 0;
 
 function addMoney(identity) {
     if (document.getElementById(identity).checked) {
-        total = total + document.getElementById(identity).value;
+        total = total + parseFloat(document.getElementById(identity).value);
     }
     else {
-        total = total - document.getElementById(identity).value;
+        total = total - parseFloat(document.getElementById(identity).value);
     }
-    document.getElementById("price").value = "Total Price: $" + total;
+    total = Math.round(total * 100) / 100;
+    document.getElementById("price").innerHTML = "Total Price: $" + total;
 }
