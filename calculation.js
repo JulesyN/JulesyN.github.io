@@ -16,4 +16,5 @@ function reset() {
         document.getElementById(i).checked = false;
     }
     total = 0;
+    document.getElementById("price").textContent = "Total Price: $" + total;
 }
