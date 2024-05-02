@@ -1,4 +1,4 @@
-let total = 0;
+let total = 54354;
 
 function addMoney(identity) {
     if (document.getElementById(identity).checked) {
