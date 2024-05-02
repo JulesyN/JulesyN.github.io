@@ -1,3 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-size: 14px;
+  margin:0px;
+}
+
+p {
+  line-height:30px;
+  padding-left:15px;
+  padding-right:15px;
+  padding-bottom:5px;
+}
+
 .home-head { 
   background-color:#cccc33;
   width:100%;
@@ -59,7 +72,7 @@
   }
   .navbar-sitename {
     font-weight:bolder;
-    font-size:larger;
+    font-size:150%;
     text-align:left;
     padding-left:15px;
     padding-right:15px;
@@ -114,8 +127,12 @@
     display: block;
     text-align: left;
   }
-  .dropdown-content a:hover {background-color: #66aaff;}
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown-content a:hover {
+    background-color: #66aaff;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 img {
     width: 200px;
