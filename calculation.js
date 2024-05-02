@@ -7,4 +7,5 @@ function addMoney(identity) {
     else {
         document.getElementById(identity).value -= total;
     }
+    document.getElementById("price").value = "$" + total;
 }
