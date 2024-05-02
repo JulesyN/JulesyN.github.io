@@ -49,7 +49,7 @@
 .navbar {
     font-size:small;
     color:#003366;
-    background-color:#ffffff66;
+    background-color:#ffffffff;
     position:fixed;
     top:0;
     width: 100%;
@@ -126,7 +126,7 @@ td {
     text-align: center;
 }
 
-#footer {
+footer {
 	padding:20px 50px 20px 50px;
 	text-align:right;
 	border-top:1px solid #003366;
