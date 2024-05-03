@@ -207,7 +207,7 @@ h2 {
   color: #fff;
   font-size: 250%;
   border: solid #fff;
-  border-radius: 5px;
+  border-radius: 25px;
   width: 400px;
   text-align: center;
   margin-left: auto;
@@ -235,6 +235,8 @@ td {
 
 #estPage {
   text-align: center;
+  border: solid #003366;
+  border-radius: 25px;
 }
 
 footer {
