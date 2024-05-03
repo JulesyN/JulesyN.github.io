@@ -208,8 +208,10 @@ h2 {
   font-size: 250%;
   border: solid #fff;
   border-radius: 5px;
-  width: 100px;
+  width: 200px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3 {
@@ -217,7 +219,9 @@ h3 {
 }
 
 table {
-  border:solid #003366
+  border:solid #003366;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table th {
