@@ -57,6 +57,7 @@ p {
   letter-spacing:2px;
   margin-right:auto;
   margin-left:auto;
+  color: #fff;
 }
 
 .navbar {
@@ -201,6 +202,14 @@ p {
 img {
     width: 200px;
     height: 200px;
+}
+
+h2 {
+  color: #fff;
+}
+
+h3 {
+  font-size: 300%
 }
 
 td {
