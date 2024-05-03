@@ -209,7 +209,15 @@ h2 {
 }
 
 h3 {
-  font-size: 300%
+  font-size: 200%
+}
+
+table {
+  border:solid #003366
+}
+
+table th {
+  text-align: center;
 }
 
 td {
