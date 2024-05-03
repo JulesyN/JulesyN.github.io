@@ -134,6 +134,70 @@ p {
     display: block;
   }
 
+
+.main-block {
+  text-align:center;
+  margin:auto;
+  padding:20px;
+}
+.blockHeader {
+  text-align:center;
+  margin:auto;
+  padding:30px;
+  background-color: #66aaff; 
+  width: fit-content;
+}
+.blockGreen {
+  top: 0;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 25%;
+  min-height:300px;
+  padding: 15px;
+  margin: 5px;
+  background-color: #339933; 
+}
+.blockBlue {
+  top: 0;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 25%;
+  min-height:300px;
+  padding: 15px;
+  margin: 5px;
+  background-color: #66aaff; 
+}
+.blockRed {
+  top: 0;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 25%;
+  min-height:300px;
+  padding: 15px;
+  margin: 5px;
+  background-color: #cc3300; 
+}
+.blockYellow {
+  top: 0;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 25%;
+  min-height:300px;
+  padding: 15px;
+  margin: 5px;
+  background-color: #cccc33; 
+}
+.blockBorder {
+  top: 0;
+  vertical-align: text-top;
+  display: inline-block;
+  width: 25%;
+  min-height:300px;
+  padding: 15px;
+  margin: 5px;
+  border:1px solid #ff9900;
+}
+
 img {
     width: 200px;
     height: 200px;
